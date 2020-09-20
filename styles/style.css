@@ -257,8 +257,8 @@ ul {
 	float: left;
     flex-wrap: wrap;
     margin-bottom: 40px;
-    margin-left: 22%;
-    width: 52%;
+    margin-left: 3%;
+    width: 64%;
 }
 
 .card-products:hover {
@@ -520,7 +520,58 @@ video {
 
 
 
+.rightind {
+    float: right;
+    width: 24.4%;
+    margin-right: 3%;
+}
 
+.wanrightind {
+    margin-top: 18px;
+    background: #fff;
+    padding: 10px;
+    color: #2a4057;
+    direction: ltr;
+    border: 1px solid rgba(211,211,211);
+    border-radius: 5px;
+}
+
+.bodyrightind {
+    font-family: Open Sans,sans-serif;
+    font-size: 16px;
+    line-height: 38px;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 5px;
+    color: #3d332b;
+}
+
+.info_right {
+    border: 1px solid rgba(0,0,0,.16);
+    height: 260px;
+}
+
+.titrightind {
+    font-family: Open Sans,sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 3px;
+    color: #f5931f;
+    margin-bottom: 13px;
+}
+
+.footerlinks {
+    color: #bfbfbf;
+}
+
+.footerlinks a {
+    text-decoration: underline;
+    font-size: 14px;
+    line-height: 0;
+    color: #4e4e4e;
+    transition: .5s;
+}
 
 
 
