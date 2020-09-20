@@ -403,6 +403,10 @@ video {
     width: 75%;
 }
 
+.rightind {
+    display: none;
+}
+
 }
 
 
