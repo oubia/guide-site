@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
-    <link rel="stylesheet" href="styles/home.css">
+    <!--link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/heroImg.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet">
-    <link rel="stylesheet" href="~/lib/Font-Awesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="styles/contact.css"-->
+	<link rel="stylesheet" href="styles/style.css">
+	
+	<!--link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet"-->
+	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--link rel="stylesheet" href="~/lib/Font-Awesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="~/lib/Font-Awesome/css/all.min.css">
-    <link rel="stylesheet" href="styles/contact.css">
+	<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"-->
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
@@ -19,22 +24,23 @@
     <!-- hedear.css -->
         <div class="info-bar">
             <div class="Presonal-info">
-                <i class="fas fa-phone-alt">+2126XX-XXXXXXXX</i>
-                <i class="far fa-envelope">XXXXX.XXXXX@gmail.com</i>
+                <a href="phone:+212666666666"><i class="fa fa-phone"></i>+212666-666666</a>
+                <a href="mail:contact@toubkalatlasmorocco.com"><i class="fa fa-envelope"></i>contact@toubkalatlasmorocco.com</a>
             </div>
             <div class="Presonal-links">
-                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a> 
+                <a href="https://www.facebook.com/ToubkalAtlasMorocco" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/ToubkalAtlasMorocco" target="_blank"><i class="fa fa-instagram"></i></a> 
             </div>
         </div>
         <!-- head bar  fexible for desktop & phone-->
         <!-- header.css -->
         <div class="topnav" id="myTopnav">
+		<a href="./" ><img class="img" src="images/logo.png"></a>
             <ul>
-                <a href="#home" >Home</a>
-                <a href="#news">Explore</a>
-                <a href="#about">About</a>
-                <a href="#contact" class="active">Contact</a>
+                <a href="./index.html" class="active" >Home</a>
+                <a href="./explore.html">Explore</a>
+                <a href="./about.html">About</a>
+                <a href="./contact.html">Contact</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
                 </a>
@@ -47,50 +53,101 @@
             <div class="hero-text">
               <h1>Some text here with db </h1>
               <p>Short title or description from db <br> this is or first db whish allow the client to write what ever he want's in this dive </p>
-              <button>Explor</button>
+              <a href="./explore.html">Explore</a>
             </div>
-          </div><br>
+        </div>
+		<br>
         
         <!-- Product card hadi bach n affichiw l places  dyal trip o discription dyalhom -->
         <!-- dir base donnes lhadi ila bghiti -->
         <!-- home.css -->
-        <div class="Products-card">        
-          <div class="card-product-right">
+        <div class="Products-card">
+        
+          <a href="demand.html" class="card-products card-product-right">
             <img class="img" src="images/img2.jpg" />
             <div class="card-product-infos-right">
               <h2>Place name</h2>
               <p>Place description with <strong>relevant info</strong> only.</p>
-              <button>More...</button>
+              More...
             </div>
-          </div><br>
-          <div class="card-product-left">
+          </a>
+		  
+          <a href="demand.html" class="card-products card-product-left">
             <img class="img" src="images/img3.jpg" />
             <div class="card-product-infos-left">
               <h2>Place name</h2>
               <p>Place description with <strong>relevant info</strong> only.</p>
-              <button>More...</button>
-            </div><br>
-          </div>
-        </div>   
+              More...
+            </div>
+          </a>
+        
+          <a href="demand.html" class="card-products card-product-right">
+            <img class="img" src="images/img2.jpg" />
+            <div class="card-product-infos-right">
+              <h2>Place name</h2>
+              <p>Place description with <strong>relevant info</strong> only.</p>
+              More...
+            </div>
+          </a>
+		  
+          <a href="demand.html" class="card-products card-product-left">
+            <img class="img" src="images/img3.jpg" />
+            <div class="card-product-infos-left">
+              <h2>Place name</h2>
+              <p>Place description with <strong>relevant info</strong> only.</p>
+              More...
+            </div>
+          </a>
+        
+          <a href="demand.html" class="card-products card-product-right">
+            <img class="img" src="images/img2.jpg" />
+            <div class="card-product-infos-right">
+              <h2>Place name</h2>
+              <p>Place description with <strong>relevant info</strong> only.</p>
+              More...
+            </div>
+          </a>
+		  
+          <a href="demand.html" class="card-products card-product-left">
+            <img class="img" src="images/img3.jpg" />
+            <div class="card-product-infos-left">
+              <h2>Place name</h2>
+              <p>Place description with <strong>relevant info</strong> only.</p>
+              More...
+            </div>
+          </a>
+		  
+        </div>
+		
           <!--contact  -->
           <!-- contact.css -->
           <div class="bg-img">
             <form action="" class="container">
-              <h1>Contact Us</h1><br>
+              <h1>Contact Us</h1>
           
-              <label for="name"><b>Name</b></label><br>
-              <input type="text" placeholder="Enter Your Name" name="name" required><br>
-          
-              <label for="Email"><b>Email</b></label><br>
-              <input type="text" placeholder="Enter Email" name="email" required><br>
-
-              <label for="Country"><b>Country</b></label><br>
-              <input type="text" placeholder="Enter Your Country" name="country" required><br>
-
-              <label for="Country"><b>Country</b></label><br>
-                <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
-          
-              <button type="submit" class="btn">Send</button>
+	<div class="inp">
+              <label for="name"><b>Name</b></label>
+              <input type="text" placeholder="Enter Your Name" name="name" required>
+	</div>
+	
+	<div class="inp">
+              <label for="Email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+	</div>
+	
+	<div class="inp">
+              <label for="Country"><b>Country</b></label>
+              <input type="text" placeholder="Enter Your Country" name="country" required>
+	</div>
+	
+	<div class="inp">
+              <label for="Message"><b>Message</b></label>
+                <textarea name="message" id="message" placeholder="Enter Your Message" cols="30" rows="10"></textarea>
+	</div>
+	
+	<div class="inp">
+              <input type="submit" class="btn"value="Send"></input>
+	</div>
             </form>
           </div> 
  
@@ -99,13 +156,13 @@
           <!-- footer.css -->
         <div class="footer">
             <div class="footer-links">
-              <a href="http://www.github.com/"><i class="fab fa-github"></i></a>
-              <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-              <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
-              <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
+              <a href="http://www.github.com/OBBHgroupDev" target="_blank"><i class="fa fa-github"></i></a>
+              <a href="https://www.instagram.com/OBBHgroupDev" target="_blank"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.facebook.com/OBBHgroupDev" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.linkedin.com/company/OBBHgroupDev" target="_blank"><i class="fa fa-linkedin"></i></a>
             </div>
             <div class="footer-copyright">
-              This footer is made with <i class="fas fa-heart"></i> at OBBhgroup
+              This footer is made with <i class="fa fa-heart"></i> at OBBHgroup Dev
             </div>
           </div>
 

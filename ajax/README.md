@@ -1,2 +1,0 @@
-# guide-site
-guide website
