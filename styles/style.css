@@ -444,12 +444,22 @@ video {
     background: #fff;
     padding: 28px;
     padding-top: 21px;
-    text-align: right;
+    text-align: left;
     color: #545f6b;
-    direction: rtl;
+    direction: ltr;
     margin-bottom: 25px;
     border: 1px solid rgba(211,211,211);
     border-radius: 5px;
+}
+
+.titind {
+    font-family: Open Sans,sans-serif;
+    font-size: 28px;
+    line-height: 35px;
+    margin-top: 4px;
+    margin-left: 5%;
+    margin-bottom: 46px;
+    color: #3d332b;
 }
 
 .bodyind {
