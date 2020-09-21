@@ -10,7 +10,6 @@ html, body {
 	/*overflow-y: scroll;*/
 }
 
-/* contact  */
 /* vietnamese */
 @font-face {
   font-family: 'Encode Sans Condensed';
@@ -37,7 +36,7 @@ html, body {
 }
 
 
-
+/* top nav bar */
 
 .topnav img {
     height: 91px;
@@ -268,17 +267,6 @@ ul {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* about page  */
 video { 
 	position: fixed;
@@ -343,7 +331,7 @@ video {
 
 /* /////////////////////////////// */
 
-/* meet our team */
+/* meet our team avatar ////////////////////////////////////////////////// */
 .teams{
 	display: flex;
 	clear: both;
@@ -376,7 +364,7 @@ video {
 /* ////////////////////////////////////////////////// */
 
 
-/* contact us */
+/* contact us using bootstrap //////////////////////////////// */
 .Contact_us{
 	clear: both;
     -webkit-background: cover;
@@ -418,7 +406,6 @@ video {
 
 /* footer-------------------------------- */
 
-  /* STYLES SPECIFIC TO FOOTER  */
   .footer {
 	
     width: 100%;
