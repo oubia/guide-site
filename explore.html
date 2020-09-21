@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Toubkal Atlas - Accueil</title>
-<meta name="description" content="Toubkal Atlas - توبقال أطلس - Accueil" />
+<title>Toubkal Atlas - Explore</title>
+<meta name="description" content="Toubkal Atlas - توبقال أطلس - Explore" />
 <meta name="keywords" content="توبقال أطلس, toubkalatlasmorocco.ml ,Toubkal Atlas" />
 
 
 
-<meta property="og:title" content="Toubkal Atlas - Accueil" />
-<meta property="og:description" content="Toubkal Atlas - توبقال أطلس - Accueil" />
+<meta property="og:title" content="Toubkal Atlas - Explore" />
+<meta property="og:description" content="Toubkal Atlas - توبقال أطلس - Explore" />
 
 
 
@@ -49,16 +49,14 @@
 
 <link rel="stylesheet" href="./styles/style.css" media="screen" type="text/css" />
 
+<!-- bootstrap link -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script data-cfasync="true" src="./js/jquery-3.4.1.min.js"></script>
 </head>
-<style>
-#content {
-    min-height: 77vh;
-}
-</style>
-<body style="zoom: 98%;">
+
+<body>
 
 <noscript>
 <meta http-equiv='refresh' content='0; url=/error/desabel_javascript'>
@@ -93,7 +91,7 @@ if(!navigator.cookieEnabled){
 		<a href="./" ><img class="img" src="images/logo.png"></a>
         
             <ul>
-                <a href="./" >Home</a>
+                <a href="./index.html" >Home</a>
                 <a href="./explore.html" class="active">Explore</a>
                 <a href="./about.html">About</a>
                 <a href="./contact.html">Contact</a>
@@ -107,7 +105,7 @@ if(!navigator.cookieEnabled){
 
 
 
-        
+
         <!-- Product card hadi bach n affichiw l places  dyal trip o discription dyalhom -->
         <!-- dir base donnes lhadi ila bghiti -->
         <!-- home.css -->
@@ -205,10 +203,9 @@ Toubkal Atlas © 2020</div>
 
 
 </div>
-		
+          
+		  
 
-		
-		
 
 <script>
 
@@ -326,53 +323,94 @@ $("#cookies_accept_button").click(function(){
 </style>
 
 
-<!--contact  -->
+        <!-- team  avatrs-->
+       
+      <div class="teams">
+          <div class="member">
+            <img src="https://picsum.photos/id/237/200/300" alt="Avatar" class="avatar">
+            <h4>First Name <br> Last name</h4>
+            <p>Langueges and experinces some text .......... </p>
+          </div>
+      </div>  
+          <!--contact  -->
           <!-- contact.css -->
-          <div class="bg-img">
-            <form action="" class="container">
-              <h1>Contact Us</h1>
-          
-	<div class="inp">
-              <label for="name"><b>Name</b></label>
-              <input type="text" placeholder="Enter Your Name" id="name" name="name" required>
-	</div>
-	
-	<div class="inp">
-              <label for="email"><b>Email</b></label>
-              <input type="text" placeholder="Enter Email" id="email" name="email" required>
-	</div>
-	
-	<div class="inp">
-              <label for="country"><b>Country</b></label>
-              <input type="text" placeholder="Enter Your Country" id="country" name="country" required>
-	</div>
-	
-	<div class="inp">
-              <label for="message"><b>Message</b></label>
-                <textarea name="message" id="message" placeholder="Enter Your Message" cols="30" rows="10"></textarea>
-	</div>
-	
-	<div class="inp">
-              <input type="submit" class="btn"value="Send"></input>
-	</div>
-            </form>
-          </div>
-		  
-		  
+      <!-- <div class="contact_title hight:1px;">Contact Us</div> -->
+      <!-- contact us using bootstrap -->
+      
+        <section class="Contact_us text-center">
+              <div class="content">
+                  <div class="container">
+                      <i class="fa fa-headphones fa-5x"></i>
+                      <h1>Do You have a Question ?</h1>
+                      <h4>Feel Free To Contact Us </h4>
+                      <div class="row">
+                          <div role="form" method="POST">
+                              <div class="col-sm-6">
+                                  <div class="form-group">
+                                      <input class="form-control input-lg" id="name" type="text" placeholder="User Name">
+                                  </div>
+                                  <div class="form-group">
+                                      <input class="form-control input-lg" id="email" type="text" placeholder="Email">
+                                  </div>
+                                  <div class="form-group">
+                                      <input class="form-control input-lg" id="country" type="text" placeholder="Country">
+                                  </div>
+                              </div>
+                              <div class="col-sm-6">
+                                  <div class="form-group">
+                                      <textarea class="form-control" id="message" placeholder="Your Message"></textarea>
+                                  </div>
+                                  <div class="form-group">
+                                      <input type="button" class="btn botun-color btn-block" value="Contact Us">
+                                  </div>
+                              </div>
+                          </div>
+      
+                      </div>
+                  </div>
+              </div>
 
-<!-- footer.css -->
-        <div class="footer">
-            <div class="footer-links">
-              <a href="http://www.github.com/OBBHgroupDev" target="_blank"><i class="fa fa-github"></i></a>
-              <a href="https://www.instagram.com/OBBHgroupDev" target="_blank"><i class="fa fa-instagram"></i></a>
-              <a href="https://www.facebook.com/OBBHgroupDev" target="_blank"><i class="fa fa-facebook"></i></a>
-              <a href="https://www.linkedin.com/company/OBBHgroupDev" target="_blank"><i class="fa fa-linkedin"></i></a>
-            </div>
-            <div class="footer-copyright">
-              This footer is made with <i class="fa fa-heart"></i> at OBBHgroup Dev
-            </div>
+      <!-- FOOTER START  ///////////////////////////////////////////-->
+      <div class="footer">
+        <div class="contain">
+          <div class="col">
+            <h1>Company</h1>
+            <ul>
+              <li>Explore</li>
+              <li>About</li>
+              <li>Demand</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h1>Informations</h1>
+            <ul>
+              <li>Mail : contact@toubkalatlasmorocco.com</li>
+              <li>Phone : +212600-0000</li>
+              <li>Adress : <p>some text here</p></li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h1>Terms Of Use</h1>
+            <ul>
+              <li>Terms</li>
+              <li>Privacy Policy</li>
+              <li>Services</li>
+              
+            </ul>
           </div>
 
+          <div class="col social">
+            <h1>Social</h1>
+            <ul>
+            <li></li>
+            </ul>
+          </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+      <!-- END OF FOOTER -->
+			  </section>
 
 
 
