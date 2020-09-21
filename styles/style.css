@@ -79,7 +79,7 @@ textarea {
 	font-size: 16.5px;
 	border: 2px solid #afafaf;
 	border-radius: 5px;
-	min-width: 262px;
+	min-width: 250px;
 	min-height: 74px;
 	max-width: 500px;
 	max-height: 500px;
@@ -750,6 +750,7 @@ video {
     list-style-type: none;
     margin: 0;
     padding: 0;
+	word-break: break-word;
 }
   
 .footer .col ul li {
