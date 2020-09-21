@@ -286,6 +286,14 @@ ul {
 	border-radius: 5px;
 }
 
+
+
+.card-products img {
+	max-width: 30%;
+	max-height: 100%;
+	border-radius: 5px;
+}
+
 .card-product-right {
 	float: left;
 	padding:10px ;
@@ -305,8 +313,6 @@ ul {
 }
 
 .card-product-right img {
-	max-width: 30%;
-	max-height: 100%;
 	float: right;
 }
 
@@ -644,6 +650,7 @@ video {
 	justify-content: center;
 	height: 40%;
 	margin-bottom: 30px;
+	background: #fff;
 	border: 1px solid rgba(211,211,211);
 	border-radius: 5px;
 }
@@ -655,7 +662,6 @@ video {
 	/*-moz-box-shadow: 7px 10px 5px 1px rgba(0,0,0,0.55);*/
 	/*box-shadow: 7px 10px 5px 1px rgba(0,0,0,0.55);*/
 	/*width: 20%;*/
-	background-color: #fff;
 	
 }
 
@@ -887,8 +893,8 @@ video {
 	#bgvid { display: none; }
 	
 .Products-card {
-	margin-left: 6%;
-	width: 88%;
+	margin-left: 4%;
+	width: 92%;
 }
 
 .rightind {
@@ -897,6 +903,24 @@ video {
 
 .teams {
 	width: 94%;
+}
+
+.Demand-card {
+    width: 94%;
+}
+
+.card-products {
+	text-align: center;
+}
+
+.card-products img {
+    max-width: 100%;
+	float: unset;
+}
+
+.card-product {
+    float: unset;
+	width: 100%;
 }
 
 }
