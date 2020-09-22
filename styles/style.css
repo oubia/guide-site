@@ -686,7 +686,7 @@ video {
 	-moz-background: cover;
 	-o-background: cover;
 	background: cover;
-	max-height: 50%;
+	/*max-height: 50%;*/
 	color: #fff;
 	font-family: sans-serif;
 }
@@ -946,4 +946,63 @@ video {
 	.footer .col {
 		width: 100%;
 	}
+}
+
+
+
+
+/* /////////////////////////////////////////////////// */
+/* Demand Form --------demand.html */
+
+.Demand-form {
+	clear: both;
+	-webkit-background: cover;
+	-moz-background: cover;
+	-o-background: cover;
+	background: cover;
+	/*max-height: 50%;*/
+	color: #fff;
+	font-family: sans-serif;
+}
+
+.Demand-form  .content {
+	background-color: #99d5c7;
+	padding: 20px;
+}
+
+.Demand-form  .content h4 {
+	margin-bottom: 30px;
+}
+
+.Demand-form  .content textarea {
+	height: 108px;
+	outline: none;
+	max-width: 550px;
+}
+
+.Demand-form  .content .btn-danger {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.botun-color:hover {
+	background-color: #44382d;
+	transition: 0.5s;
+}
+
+.botun-color {
+	background-color:#f5931f;
+	border-color:#f5931f ;
+	height: 42px;
+	max-width: 550px;
+	color: #fff !important;
+}
+
+.Demand-form .content label {
+	color:#44382d;
+	float: left;
+}
+
+.Demand-form .content .ideal-date {
+/* make content grey and center of label */
 }
